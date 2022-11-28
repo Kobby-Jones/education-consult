@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+.navbar{
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    
+}
+.section1{
+    background-image:url(../images/background-pic.jpg);
+    background-size: cover;
+    margin-top: -100px;
+    padding-top: 200px;
+    
+}
+.join-us-btn{
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.join-us-btn:hover{
+    background-color: deepskyblue;
+    border: none;
+}
+.item{
+    background-image: url(../images/service-item-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
+.item .icon{
+    max-width: 60px;
+  margin: 0 auto;
+}
+.owl-prev{
+    left: -20px;
+}
+.owl-next{
+    right: -10px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+    
+}
+.owl-prev span, .owl-next span{
+    font-size: 4rem;
+    color: black;
+
+}
+/* .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f404';
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+} */
+.section2{
+    background-image: url(../images/meetings-bg.jpg);
+    padding-top: 60px;
+}
+.section2 a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 30px;
+}
+.upcoming-event{
+    margin-bottom: 30px;
+}
+.event-cat-list{
+    list-style: none;
+}
+a:hover{
+    color: orangered;
+}
+.upcoming-btn{
+    border-radius: 50px;
+    margin-left: 65px; 
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.upcoming-btn:hover{
+    background-color: deepskyblue;
+    border: none;
+}
+.card{
+    border-radius: 20px;
+    border: none;
+}
+.card img{
+    
+    border-radius: 10px;
+}
+.remedials-card{
+    margin-top: 20px;
+}
+.online-teaching-card{
+    margin-top: 20px;
+}
+.novdec-reg-card{
+    margin-bottom: 20px;
+}
+.date-of-event{
+    color: orangered;
+}
+.wasse-remedials{
+    margin-top: 40px;
+}
+.online-teaching{
+    margin-top: 40px;
+}
+.novdec-reg{
+    margin-top: 40px;
+}
+.bachelor-scholarship{
+    margin-top: 40px;
+}
+.section3{
+    background: url(../images/apply-bg.jpg);
+    padding-top: 100px;
+}
+.abroad-card{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 15px;
+    
+}
+.abroad-heading{
+    margin-top: 20px;
+}
+.local-card{
+     background-color: rgba(0, 0, 0, 0.3);
+     padding-bottom: 15px;
+     margin-bottom: 10px;
+}
+.local-heading{
+     margin-top: 20px;
+}
+.apply-now-btn{
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.apply-now-btn:hover{
+    background-color: deepskyblue;
+    border: none;
+    
+}
+.about-card{
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.section4{
+    background-image: url(../images/meetings-page-bg.jpg);
+}
+.owl-carousel2 .owl-prev{
+    left: -20px;
+}
+.owl-carousel2 .owl-next{
+    right: -10px;
+}
+.owl-carousel2 .owl-prev,.owl-carousel2 .owl-next{
+    position: absolute;
+    top: 90px;
+    
+}
+.owl-carousel2 .owl-prev span,.owl-carousel2 .owl-next span{
+    font-size: 4rem;
+    color: black;
+
+}
+
