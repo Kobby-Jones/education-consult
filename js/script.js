@@ -3,28 +3,27 @@ $(".owl-carousel1").owlCarousel({
   autoplayhoverpause: true,
   autoplaytimeout: 100,
   nav: true,
+  navText:["⬅","➡"],
   loop: true,
   lazyLoad: true,
+  dots:true,
   responsive: {
     0: {
       items: 1,
-      dots: false,
     },
     485: {
       items: 2,
-      dots: false,
     },
     728: {
       items: 3,
-      dots: false,
     },
     960: {
       items: 3,
-      dots: false,
+      
     },
     1200: {
       items: 3,
-      dots: true,
+      
     },
   },
 });
@@ -58,4 +57,19 @@ $(".owl-carousel2").owlCarousel({
       dots: true,
     }
   }
+});
+
+const counters = document.querySelectorAll('.counter');
+counters.forEach((counter) => {
+  counter.innerText = '0';
+  const updateCounter = () => {
+    const target =  +counter.getAttribute('data-val');
+    const c = +counter.innerText;
+    const increment = target / 200;
+    if (c < target) {
+      counter.innerText = `${Math.ceil(c + increment)}`;
+      setTimeout(updateCounter, 1);
+    }
+  }
+  updateCounter();
 });
