@@ -183,7 +183,8 @@ a:hover{
 
 }
 .section5{
-    background-image: url(../images/facts-bg.jpg);
+    background-image: url(https://images.unsplash.com/photo-1604517087228-4c456fa2b4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDQzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    padding-bottom: 30px;
 }
 .facts-container{
     padding-top: 60px;
@@ -194,8 +195,10 @@ a:hover{
 }
 .facts-row{
     background-color: rgba(204, 240, 237, 0.986);
-    padding-top: 0;
+    padding-top: 10px;
     margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 .facebook-subscribers{
     font-size: 3rem;
@@ -214,6 +217,75 @@ a:hover{
     /* color:rgb(288, 64, 95) */
     color: #E4405F;
 }
+.awards{
+    font-size: 3rem;
+    color:crimson
+}
+.successful-students{
+    font-size: 3rem;
+    color:cadetblue
+}
+.current-students{
+    font-size: 3rem;
+    color: darksalmon;
+}
+.years-service{
+    font-size: 3rem;
+    color: darkorchid;
+}
 .facts-line{
     margin-bottom: 100px;
+}
+.about-row{
+    background-color: rgba(204, 240, 237, 0.986);
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+.about-row li{
+    list-style:disc;
+}
+.message-col{
+    background-color: wheat;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+.input-col{
+    margin-top: 30px;
+}
+.field{
+    border: none;
+    border-radius: 5px;
+}
+.message-row{
+    margin-top: 50px;
+}
+.send-msg-btn{
+    margin-top: 10px;
+}
+.send-btn:hover{
+    background-color: deepskyblue;
+    border: none;
+}
+.cont-us{
+    background-color: darkred;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.contact-email{
+    color: white;
+    
+}
+.contact-email:hover{
+    color: #1DA1F2;
+}
+.footer-icon{
+    font-size: 2rem;
+}
+.footer{
+    margin-top: 40px;
+}
+.line{
+    margin-top: 20px;
 }
