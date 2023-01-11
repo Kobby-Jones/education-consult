@@ -7,7 +7,7 @@ body{
 .navbar{
     margin-bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    height: 100px;
+    /* height: 100px; */
     
 }
 .section1{
@@ -288,4 +288,10 @@ a:hover{
 }
 .line{
     margin-top: 20px;
+}
+@media only screen and (max-width: 600px){
+    .section1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
